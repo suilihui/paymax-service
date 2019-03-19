@@ -1,0 +1,14 @@
+{
+    "name": "paymax/paymax-php",
+    "description": "This a paymax service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suilihui",
+            "email": "466066151@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
