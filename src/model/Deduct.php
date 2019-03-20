@@ -8,7 +8,7 @@
 namespace Paymax\model;
 
 
-use Paymax\config\PaymaxConfig;
+use Paymax\config\DeductConfig;
 
 class Deduct extends ApiResource
 {
