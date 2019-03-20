@@ -17,8 +17,8 @@
 		"psr-4": {
 			"Paymax\\model\\": "src/model",
 			"Paymax\\exception\\": "src/exception",
-			"Paymax\\config\\SignConfig\\": "src/config",
-			"Paymax\\config\\SignConfig\\RSAUtil": "src/sign/RSAUtil",
+			"Paymax\\config\\": "src/config",
+			"Paymax\\config\\SignConfig\\": "src/sign",
 			"Paymax\\util\\": "src/util"
 		}
 	}
