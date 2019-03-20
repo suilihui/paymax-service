@@ -15,11 +15,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Paymax\\model\\" => "src/model",
-			"Paymax\\exception\\" => "src/exception",
-			"Paymax\\config\\SignConfig\\" => "src/config",
-			"Paymax\\config\\SignConfig\\RSAUtil" => "src/sign/RSAUtil",
-			"Paymax\\util\\" => "src/util"
+			"Paymax\\model\\": "src/model",
+			"Paymax\\exception\\": "src/exception",
+			"Paymax\\config\\SignConfig\\": "src/config",
+			"Paymax\\config\\SignConfig\\RSAUtil": "src/sign/RSAUtil",
+			"Paymax\\util\\": "src/util"
 		}
 	}
 }
