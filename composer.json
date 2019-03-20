@@ -19,7 +19,7 @@
 			"Paymax\\exception\\" => "src/exception",
 			"Paymax\\config\\SignConfig\\" => "src/config",
 			"Paymax\\config\\SignConfig\\RSAUtil" => "src/sign/RSAUtil",
-			"Paymax\\util\\" => "src/util",
+			"Paymax\\util\\" => "src/util"
 		}
 	}
 }
