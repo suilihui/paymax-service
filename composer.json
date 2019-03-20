@@ -18,7 +18,7 @@
 			"Paymax\\model\\": "src/model",
 			"Paymax\\exception\\": "src/exception",
 			"Paymax\\config\\": "src/config",
-			"Paymax\\config\\SignConfig\\": "src/sign",
+			"Paymax\\sign\\": "src/sign",
 			"Paymax\\util\\": "src/util"
 		}
 	}
