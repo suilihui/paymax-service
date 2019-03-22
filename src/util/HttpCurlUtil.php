@@ -161,7 +161,7 @@ class HttpCurlUtil
         //初始化CURL
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $this->uri);
-        //curl_setopt($ch, CURLOPT_HEADER, 1);
+        curl_setopt($ch, CURLOPT_HEADER, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
 
@@ -207,6 +207,7 @@ class HttpCurlUtil
             if ($response_code<400){
                 $this->to_verify_data($res_header, $body_data);
             }
+            $data = $body_data;
         }catch (Exception $e) {
             return $e->getMessage();
         }
